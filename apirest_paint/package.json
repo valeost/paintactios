@@ -1,0 +1,11 @@
+{
+  "name": "apirest_paint",
+  "version": "1.0.0",
+  "description": "This is the api rest application for ACTIOS test project ",
+  "main": "index.js",
+  "author": "Valeria Ostreninova",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

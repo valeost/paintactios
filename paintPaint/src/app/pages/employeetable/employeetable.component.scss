@@ -1,0 +1,13 @@
+
+.table__header{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+.tableheader__item {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.item--align-end{
+    text-align: end;
+}

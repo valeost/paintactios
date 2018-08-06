@@ -1,0 +1,14 @@
+.table__wrapper {
+    overflow: auto;
+    height: 70vh;
+}
+.table__row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid gray;
+    padding: 0.5rem;
+}
+.table__col {
+    flex-grow: 1;
+    flex-basis: 0;
+}

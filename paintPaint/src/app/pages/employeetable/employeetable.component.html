@@ -1,0 +1,13 @@
+<div >
+<div class="table__header">
+    <div class="tableheader__item">
+        <paginator (changePaginationValue)="paginationChanged($event)" (scrollToEmmiter)="scrollTo($event)"></paginator>
+    </div>
+    <div class="tableheader__item item--align-end">
+        <app-searcher (searchedWordEmitter)="reciveSearchedWord($event)"></app-searcher>
+    </div>
+</div>
+
+
+    <app-table [employees]="persons" [pagination]="pagination"></app-table>
+</div>

@@ -1,0 +1,17 @@
+<div class="button__group">
+    <div class="buttongroup__item">
+        <select [(ngModel)]="pagValue" (ngModelChange)="changePagination()">
+            <option >10</option>
+            <option >20</option>
+            <option >50</option>
+        </select>
+    </div>
+    <div class="buttongroup__item">
+        <button (click)=" goToTopList()">
+                <i class="fa fa-chevron-up" aria-hidden="true"> </i>    
+        </button>
+        <button (click)="goToBottomList()">
+                <i class="fa fa-chevron-down" aria-hidden="true"> </i>    
+        </button>
+    </div>
+</div>
